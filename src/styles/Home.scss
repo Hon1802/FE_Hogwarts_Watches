@@ -25,14 +25,22 @@ main {
 }
 #header-id {
   position: fixed;
-  top: 40px;
   z-index: 12;
   align-items: center;
   background: #fff;
+  .cus-menu {
+    max-width: 800px !important;
+    width: 50vw;
+    color: #000;
+    li {
+      display: flex;
+      align-items: center;
+    }
+  }
   .hd-top {
-    background: var(--bgHead);
-    height: 40px;
-    max-height: 40px;
+    background: #fff;
+    height: 70px;
+    max-height: 70px;
   }
   .left {
     span {

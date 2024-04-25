@@ -3,49 +3,41 @@ import { Link } from 'react-router-dom'
 import Space from 'antd/es/space'
 import Search from 'antd/es/input/Search'
 import type { SearchProps } from 'antd/es/input/Search'
-import { SvgAccount, SvgBell, SvgMenu, SvgStoreList, SvgVip, SvgShoppingCart } from '../../assets/icons'
+import { SvgAccount, SvgBell, SvgMenu, SvgVip, SvgShoppingCart } from '../../assets/icons'
+import MenuNav from '../menus/menu'
 const onSearch: SearchProps['onSearch'] = (value, _e, info) => console.log(info?.source, value)
 
 const Header: React.FC = () => (
   <div id='header-id' className='full-w d-flex flex-column'>
     <div className='full-w d-flex flex-row justify-content-center hd-top'>
-      <div className='w-85 d-flex justify-content-between'>
-        <div className='left d-inline-flex gap-12px'>
-          <Link to={'tel:1900636099'} className='text-Neue font-14 center-d-flex'>
-            Hoiline
-            <span className='text-Neue font-14 center-d-flex'>1900.636.099</span>
-          </Link>
-          <Link to={'/pages/he-thong-cua-hang'} className='text-Neue font-14 center-d-flex'>
-            Hệ thống cửa hàng
-            <span className='text-Neue font-14 center-d-flex'>
-              (45 <SvgStoreList color='#ff379b' /> )
-            </span>
-          </Link>
+      <div className='d-flex justify-content-between full-w'>
+        <div className='left d-inline-flex gap-12px full-w'>
+          <MenuNav />
         </div>
         <div className='right'>
           <ul className='d-inline-flex gap-12px'>
             <li>
-              <Link to={'/'} className='text-Neue font-14 center-d-flex'>
+              <Link to={'/'} className='text-Family-1 font-16 center-d-flex'>
                 Trang chủ
               </Link>
             </li>
             <li>
-              <Link to={'/collections/collections'} className='text-Neue font-14 center-d-flex'>
+              <Link to={'/collections/collections'} className='text-Family-1 font-16 center-d-flex'>
                 Sản phẩm
               </Link>
             </li>
             <li>
-              <Link to={'/pages/blog/tin-tuc'} className='text-Neue font-14 center-d-flex'>
+              <Link to={'/pages/blog/tin-tuc'} className='text-Family-1 font-16 center-d-flex'>
                 Blog
               </Link>
             </li>
             <li>
-              <Link to={'/pages/gioi-thieu'} className='text-Neue font-14 center-d-flex'>
+              <Link to={'/pages/gioi-thieu'} className='text-Family-1 font-16 center-d-flex'>
                 Giới thiệu
               </Link>
             </li>
             <li>
-              <Link to={'/account/dang-nhap'} className='text-Neue font-14 center-d-flex color-menu'>
+              <Link to={'/account/dang-nhap'} className='text-Family-1 font-16 center-d-flex color-menu'>
                 <SvgAccount color='#ff379b' />
                 Đăng nhập
               </Link>
@@ -60,7 +52,7 @@ const Header: React.FC = () => (
           alt='KidsShop'
           src='https://file.hstatic.net/200000785527/file/mew_plant_ff70904caac44c88bd4e757c060f20a4.png'
           data-src='https://file.hstatic.net/200000785527/file/mew_plant_ff70904caac44c88bd4e757c060f20a4.png'
-          className='text-Neue font-12'
+          className='text-Family-1 font-12'
         />
       </Link>
       <div className='col-1 svg-menu'>
@@ -91,19 +83,19 @@ const Header: React.FC = () => (
       </Space>
       <div className='header-right col-3'>
         <ul className='d-inline-flex'>
-          <li className='text-Neue font-12'>
+          <li className='text-Family-1 font-12'>
             <Link to={'/'}>
               <SvgVip className='icon-1' color='#000000' />
               Vip member
             </Link>
           </li>
-          <li className='text-Neue font-12'>
+          <li className='text-Family-1 font-12'>
             <Link to={'/pages/blog/tin-tuc'}>
               <SvgBell className='icon-1' color='#000000' />
               Tin tức
             </Link>
           </li>
-          <li className='text-Neue font-12'>
+          <li className='text-Family-1 font-12'>
             <Link to={'/pages/gio-hang'}>
               <SvgShoppingCart className='icon-1' color='#000000' />
               Giỏ hàng

@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { LoadingBackground } from '../loading'
-import TopBanner from './topBanner'
 import Header from './Header'
 import Footer from './Footer'
 import Support from './Support'
@@ -18,10 +17,8 @@ const LayoutHome: React.FC = () => {
     if (header) {
       if (position >= 3) {
         setIsVisible(false)
-        header.style.top = '0px'
       } else {
         setIsVisible(true)
-        header.style.top = '40px'
       }
     }
   }
@@ -37,7 +34,6 @@ const LayoutHome: React.FC = () => {
       <div id='stone-scroll'></div>
       <header id='header-layout-1'>
         <title>Kids Shop</title>
-        {isVisible && <TopBanner />}
         <Header />
       </header>
       <main id='main-layout-1'>

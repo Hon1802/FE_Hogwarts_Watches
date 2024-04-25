@@ -67,12 +67,12 @@ function PageCart() {
   //   return totalPrice
   // }
   // const loadProducts = () => {
-    // const productDetails = Array.from(cartItems).map((productId) => findProductById(productId))
-    // const validProductDetails = productDetails.filter((product): product is ItemProps => product !== undefined)
-    // setProducts(validProductDetails)
-    // if (validProductDetails.length > 0) {
-    //   setTotal(calculateTotalPrice(validProductDetails))
-    // }
+  // const productDetails = Array.from(cartItems).map((productId) => findProductById(productId))
+  // const validProductDetails = productDetails.filter((product): product is ItemProps => product !== undefined)
+  // setProducts(validProductDetails)
+  // if (validProductDetails.length > 0) {
+  //   setTotal(calculateTotalPrice(validProductDetails))
+  // }
   // }
   // useEffect(() => {
   //   loadCartItemsFromCookie()
