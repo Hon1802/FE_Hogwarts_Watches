@@ -1,0 +1,128 @@
+//mobile
+.hd-mobile {
+  display: none;
+}
+//
+.full-w {
+  width: 100%;
+}
+.w-85 {
+  width: 85%;
+}
+.full-h {
+  height: 100%;
+}
+// space
+.gap-12px {
+  gap: 12px;
+}
+// text
+.text-web {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
+    sans-serif;
+}
+.text-Neue {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: var(--textColor);
+}
+.text-Coiny {
+  font-family: 'Coiny', cursive;
+  color: var(--textColor);
+}
+.font-34 {
+  font-size: 34px !important;
+}
+.font-24 {
+  font-size: 24px !important;
+}
+.font-20 {
+  font-size: 20px !important;
+}
+.font-18 {
+  font-size: 18px !important;
+}
+.font-17 {
+  font-size: 17px !important;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-14 {
+  font-size: 14px !important;
+}
+.font-12 {
+  font-size: 12px !important;
+}
+.weight-700 {
+  font-weight: 700;
+}
+// center
+.center-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//
+.old-price {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #929292;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+//
+.br-25 {
+  border-radius: 25px;
+}
+.ma-tb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.title-h2 {
+  font-family: 'Coiny', cursive;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--cl_tit_trending);
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 30px;
+}
+.title-h2:hover {
+  cursor: pointer;
+  color: var(--mainColor);
+}
+.title-h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bolder;
+  text-align: left;
+  color: var(--mainColor);
+}
+.title-h3:hover {
+  cursor: pointer;
+}
+// hover
+.sitdown:before {
+  content: '';
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+  height: 0;
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  z-index: 1;
+}
+
+.sitdown:hover:before {
+  opacity: 0;
+  height: 100%;
+}
+.cus-bread {
+  margin: 20px 0px;
+  background: #fff;
+  border-radius: 25px;
+  padding: 10px 5px;
+}

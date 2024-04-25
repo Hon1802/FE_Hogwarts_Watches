@@ -1,0 +1,63 @@
+#system-store {
+  background: #fff;
+  border-radius: 25px;
+  padding: 10px 5px;
+  .text-system-store {
+    font-family: 'Coiny', cursive;
+  }
+  .title-page {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px 0px 20px 20px;
+  }
+  .container-store {
+    .cus-item {
+      border-radius: 15px;
+      text-align: left;
+      h3 {
+        margin: 0px;
+        padding: 50px 1rem 0px !important;
+        font-size: 1em;
+      }
+      span {
+        padding-left: 1rem !important;
+        font-size: 2rem;
+      }
+    }
+    .title-child::after {
+      content: '';
+      position: absolute;
+      bottom: -3em;
+      right: 15px;
+      width: 84px;
+      height: 72px;
+      background-position: bottom center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .cus-item:nth-child(1) {
+      .title-child::after {
+        background-image: url(//theme.hstatic.net/200000785527/1001131587/14/nb_ico_1.png?v=2930) !important;
+      }
+    }
+    .cus-item:nth-child(2) {
+      .title-child::after {
+        background-image: url(//theme.hstatic.net/200000785527/1001131587/14/nb_ico_2.png?v=2930) !important;
+      }
+    }
+    .cus-item:nth-child(3) {
+      .title-child::after {
+        background-image: url(//theme.hstatic.net/200000785527/1001131587/14/nb_ico_3.png?v=2930) !important;
+      }
+    }
+    .cus-item:nth-child(4) {
+      .title-child::after {
+        background-image: url(//theme.hstatic.net/200000785527/1001131587/14/nb_ico_4.png?v=2930) !important;
+      }
+    }
+    .gg-map {
+      margin: 20px 0px;
+    }
+  }
+}

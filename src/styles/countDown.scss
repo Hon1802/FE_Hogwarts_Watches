@@ -1,0 +1,32 @@
+.container-countdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 62px;
+  .countdown-item {
+    background: var(--cl_tit_fl);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .countdown-run {
+      font-size: 25px;
+      font-family: 'Mulish', sans-serif;
+      font-weight: bold;
+      color: #ffffff;
+      padding-bottom: 5px;
+    }
+    .text-under {
+      width: 100%;
+      border-top: 1px solid #ffffff;
+      padding-top: 2px;
+      font-size: 10px;
+      font-family: 'Mulish', sans-serif;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+#checkout-page {
+  display: flex;
+  justify-content: center;
+  .cs-moblie {
+    .right {
+      padding: 40px 10px;
+      .product-cart {
+        .cover-img {
+          width: 120px;
+          height: 120px;
+          img {
+            height: 100%;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+#login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  .cus-login {
+    max-width: 50vw;
+    width: 50vw;
+    text-align: left;
+    background: #fff;
+    padding-right: 10vw;
+    padding-top: 10vh;
+  }
+  .ant-form-horizontal {
+    .ant-form-item:first-child,
+    .ant-form-item:nth-child(2) {
+      .ant-form-item-control {
+        border: 1px solid var(--mainColor);
+        border-radius: 6px;
+      }
+    }
+  }
+  .cus-register {
+    .ant-form-item:nth-child(3),
+    .ant-form-item:nth-child(4),
+    .ant-form-item:nth-child(5),
+    .ant-form-item:nth-child(6),
+    .ant-form-item:nth-child(7) {
+      .ant-form-item-control {
+        border: 1px solid var(--mainColor);
+        border-radius: 6px;
+      }
+    }
+  }
+  .btn-login {
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    background: var(--mainColor);
+    color: #fff;
+  }
+  .cus-right {
+    text-align: left;
+    h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--mainColor);
+    }
+    p {
+      font-size: 14px;
+      border: 1px solid var(--mainColor);
+      border-radius: 15px;
+      padding: 15px;
+    }
+    .btn-login {
+      background: #fff;
+      color: var(--mainColor);
+    }
+  }
+  .email-input {
+    border: 1px solid var(--mainColor);
+    border-radius: 15px;
+    color: var(--mainColor);
+    padding-left: 20px;
+  }
+}
