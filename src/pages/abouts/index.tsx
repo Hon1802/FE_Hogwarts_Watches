@@ -26,8 +26,7 @@ function AboutUs() {
           ]}
         />
       </div>
-      <div id='about-page' className='w-85 row'>
-      </div>
+      <div id='about-page' className='w-85 row'></div>
     </div>
   )
 }

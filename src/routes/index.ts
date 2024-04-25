@@ -20,7 +20,7 @@ const routes = [
   { path: '/account/dang-ky', element: RegisterPage },
   { path: '/account/quen-mat-khau', element: ForgotPassPage },
   { path: '/pages/blog/tin-tuc', element: BlogPages },
-  { path: '/pages/gio-hang', element: PageCart },
+  { path: '/pages/gio-hang', element: PageCart }
   // { path: '/collections/:title', element: CollectionPage },
   // { path: '/product/:id', element: DetailProduct },
   // { path: '/pages/checkout', element: CheckOut }

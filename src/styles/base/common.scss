@@ -21,14 +21,20 @@
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
     sans-serif;
 }
-.text-Neue {
-  font-family: 'Helvetica Neue', sans-serif;
+.text-Family-1 {
+  font-family: 'SFUFuturaBook', sans-serif;
   color: var(--textColor);
 }
 .text-Coiny {
   font-family: 'Coiny', cursive;
   color: var(--textColor);
 }
+//
+.color-1 {
+  color: #000 !important;
+}
+//
+
 .font-34 {
   font-size: 34px !important;
 }
