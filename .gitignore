@@ -15,7 +15,7 @@ dist-ssr
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json
+!.vscode/extensions.json  # Allow extensions.json to be tracked
 .idea
 .editorconfig
 .estlintrc
@@ -31,4 +31,23 @@ vite.config.ts
 *.ntvs*
 *.njsproj
 *.sln
+*.sw?
+
+# Ignore all files with the .vscode directory except extensions.json
+.vscode/**
+!.vscode/extensions.json
+
+# Ignore all files with .suo extension
+*.suo
+
+# Ignore all files with .ntvs* extension
+*.ntvs*
+
+# Ignore all files with .njsproj extension
+*.njsproj
+
+# Ignore all files with .sln extension
+*.sln
+
+# Ignore all files with .sw? extension
 *.sw?
